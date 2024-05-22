@@ -1,4 +1,4 @@
-public class Guerreiros extends Personagem implements AcoesPersonagem {
+public class Guerreiros extends Personagem {
     private int habilidadeCombate;
     private int escudo;
 

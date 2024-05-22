@@ -1,4 +1,4 @@
-public class Magos extends Personagem implements AcoesPersonagem {
+public class Magos extends Personagem {
     //Atributos
     private int habilidadeMagica;
     private int esquiva;
