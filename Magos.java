@@ -1,9 +1,10 @@
-public class Magos extends Personagem {
+public class Magos extends Personagem implements AcoesPersonagem {
     //Atributos
     private int habilidadeMagica;
     private int esquiva;
 
     //Construtor
+    
     public Magos(String nome, int forca, int pontosDeVida, int habilidadeMagica, int esquiva){
         super(nome, forca, pontosDeVida);
         this.habilidadeMagica = habilidadeMagica;

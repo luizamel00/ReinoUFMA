@@ -1,4 +1,4 @@
-public class Arqueiros extends Personagem {
+public class Arqueiros extends Personagem implements AcoesPersonagem {
     private int habilidadeArco;
     private int destreza;
 

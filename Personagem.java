@@ -1,4 +1,4 @@
-public abstract class Personagem {
+public abstract class Personagem implements AcoesPersonagem {
     //Atributos
     private String nome;
     private int nivel;
@@ -12,12 +12,7 @@ public abstract class Personagem {
         this.forca = forca;
         this.pontosDeVida = pontosDeVida;
 
-    }
-
-    //Métodos abstratos de Ação
-    public abstract int atacar(); 
-    public abstract void receberDano(int dano);
-    public abstract void mostrarDetalhes();
+    }    
 
     //Método para subir o nível
     public void subirNivel(){

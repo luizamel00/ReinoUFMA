@@ -1,4 +1,4 @@
-public class Guerreiros extends Personagem{
+public class Guerreiros extends Personagem implements AcoesPersonagem {
     private int habilidadeCombate;
     private int escudo;
 
@@ -26,6 +26,7 @@ public class Guerreiros extends Personagem{
             setPontosDeVida(getPontosDeVida() - dano);
         }
     }
+    @Override
     public void mostrarDetalhes(){
         System.out.println("Guerreiro: " + getNome() + ", Nível: " + getNivel() + ", Força: " + getForca() +
         ", HP: " + getPontosDeVida() + ", Habilidade de Combate: " + this.habilidadeCombate +
